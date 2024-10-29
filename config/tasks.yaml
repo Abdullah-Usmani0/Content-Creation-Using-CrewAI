@@ -1,0 +1,39 @@
+monitor_global_news:
+  description: >
+    Monitor and analyze the latest news and updates across global topics, focusing on {subject}. 
+    Identify and summarize the most impactful developments that could shape trends, inform strategy, or influence decision-making. 
+    Use real-time news sources and data tools to gather the latest information, with an emphasis on detecting relevant trends, regulatory changes, 
+    or significant indicators related to {subject}.
+  expected_output: >
+    A detailed summary report highlighting the most impactful global news related to {subject}.
+    This report should include key insights and their potential implications for strategy, audience engagement, and content creation.
+
+analyze_global_data:
+  description: >
+    Analyze data and trends across multiple sectors related to {subject}, with a focus on uncovering patterns, opportunities, 
+    and risks that could enhance content strategy. Use advanced data analytics tools to process datasets and generate actionable insights.
+     Pay particular attention to how {subject} affects broader trends, audience sentiment, and influential indicators.
+  expected_output: >
+    A comprehensive analysis report that highlights key trends and actionable insights related to {subject}. 
+    The report should include data visualizations and provide clear recommendations for content strategy.
+
+create_engaging_content:
+  description: >
+    Based on the insights from the Global News Monitor and Data Insights agents, create high-quality, 
+    engaging content that educates and informs a diverse audience on {subject}. Develop various types of content, including articles, 
+    blog posts, and social media updates, that effectively convey insights. Incorporate visuals, infographics, or multimedia elements to 
+    enhance engagement and communication.
+  expected_output: >
+    A collection of high-quality content pieces related to {subject}, including articles, blog posts, and social media updates, 
+    complete with multimedia elements where applicable.
+
+content_quality_review:
+  description: >
+    Review and refine content created on {subject} to ensure it meets high standards of accuracy, clarity, and brand alignment. 
+    Conduct thorough proofreading and editing, ensuring alignment with the brand voice and consistency. 
+    Confirm the content reflects insights from Data Insights and Global News Monitor agents, and format in markdown, using headers, 
+    bullet points, links, and markdown elements to improve readability and engagement.
+  expected_output: >
+    A finalized set of content pieces related to {subject}, thoroughly reviewed and formatted in markdown. 
+    Each piece should be well-structured with appropriate use of headers, bullet points, links, and markdown elements, 
+    ensuring visual appeal and ease of reading.
